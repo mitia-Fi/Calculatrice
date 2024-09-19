@@ -1,0 +1,109 @@
+object Form1: TForm1
+  Left = 213
+  Top = 169
+  Width = 1044
+  Height = 539
+  Caption = 'Form1'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 432
+    Top = 64
+    Width = 3
+    Height = 13
+  end
+  object Label2: TLabel
+    Left = 432
+    Top = 120
+    Width = 3
+    Height = 13
+  end
+  object Label3: TLabel
+    Left = 448
+    Top = 64
+    Width = 105
+    Height = 21
+    Caption = 'Entrer le 1er nombre :'
+  end
+  object Label4: TLabel
+    Left = 448
+    Top = 120
+    Width = 113
+    Height = 25
+    Caption = 'Entrer le 2nd nombre :'
+  end
+  object Label5: TLabel
+    Left = 472
+    Top = 280
+    Width = 52
+    Height = 25
+    Caption = ':Reponse :'
+  end
+  object Edit1: TEdit
+    Left = 440
+    Top = 88
+    Width = 121
+    Height = 21
+    TabOrder = 0
+    Text = ''
+  end
+  object Edit2: TEdit
+    Left = 440
+    Top = 144
+    Width = 121
+    Height = 21
+    TabOrder = 1
+    Text = ''
+  end
+  object Button1: TButton
+    Left = 368
+    Top = 208
+    Width = 129
+    Height = 25
+    Caption = '+'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Edit3: TEdit
+    Left = 440
+    Top = 304
+    Width = 121
+    Height = 25
+    TabOrder = 3
+    Text = ''
+  end
+  object Button2: TButton
+    Left = 368
+    Top = 240
+    Width = 129
+    Height = 25
+    Caption = '*'
+    TabOrder = 4
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 512
+    Top = 240
+    Width = 121
+    Height = 25
+    Caption = '/'
+    TabOrder = 5
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 512
+    Top = 208
+    Width = 121
+    Height = 25
+    Caption = '-'
+    TabOrder = 6
+    OnClick = Button4Click
+  end
+end
